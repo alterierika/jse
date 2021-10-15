@@ -11,20 +11,20 @@ import java.lang.Math; // not required
  * @author Emanuele Galli
  */
 public class Simple {
-    public static void main(String[] args) {
-        // output a string to console
-        System.out.print("Hello, ");
+	public static void main(String[] args) {
+		// output a string to console
+		System.out.print("Hello, ");
 
-        // if the caller passes exactly one parameter, output it
-        if (args.length == 1) {
-            System.out.println(args[0]);
-        } else {
-            // otherwise output PI
-            System.out.println(Math.PI);
-        }
-    }
+		// if the caller passes exactly one parameter, output it
+		if (args.length == 1) {
+			System.out.println(args[0]);
+		} else {
+			// otherwise output PI
+			System.out.println(Math.PI);
+		}
+	}
 }
 
 class PackageClass {
-    // TODO: Not implemented (yet)
+	// TODO: Not implemented (yet)
 }
